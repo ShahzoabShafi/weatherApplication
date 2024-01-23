@@ -1,0 +1,25 @@
+:root{
+    --blue-1: #3c429e;
+    --blue-2: #4c52ad;
+    --yellow-1: #fac742;
+    --white: #fff;
+    --grey-1: #ededed;
+    --shadow-dark: rgba(0,0,0,0.3);
+    --shadow-light: rgba(255,255,255,0.1);
+
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    background: var(--blue-1);
+    color: var(--white);
+    height: 100%;
+    width: 100%;
+
+    
+}

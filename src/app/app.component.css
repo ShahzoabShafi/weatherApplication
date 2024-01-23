@@ -1,0 +1,158 @@
+nav{
+    color: white;
+    /* border: 1px solid var(--grey-1); */
+    position: fixed;
+    top: 0;
+    height: 8vh;
+    width: 100%;
+    background-color: blueviolet;
+    display: flex;
+    flex-direction: row;
+}
+
+nav h1{
+    text-align: start;
+    margin:10px;
+}
+.search{
+    text-align: center;
+    margin: 10px;
+    
+}
+
+.search input{
+    width: 150px;
+    height: 30px;
+    border-radius: 10px;
+    border: 1px solid var(--grey-1);
+    padding: 0 10px;
+    outline: none;
+    top: 0%;
+}
+
+.container{
+    background-color: var(--blue-2);
+    width: 400px;
+    height: 80vh;
+    border-radius: 30px;
+    box-shadow: 10px 10px 10px var(--shadow-dark);
+    margin: auto;
+    position: relative;
+    margin-top: 80px;}
+
+.upperData{
+    position: relative;
+    overflow: hidden;
+    width: 100%;
+    height: 50%;
+    border-top-left-radius: 30px;
+    border-top-right-radius: 30px;
+    /* border-bottom: 1px solid var(--grey-1); */
+
+}
+
+.upperData img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    /* object-fit: cover; */
+}
+
+.weather-data{
+    position: relative;
+    z-index: 1;
+    width: 100%;
+    height: 100%;
+    background-color: var(--shadow-dark);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.location{
+    font-size: 1.2rem;
+    font-weight: 500;
+    margin-bottom: 10px;
+    color: var(--white);
+}
+
+.feelslike{
+    font-size: 1rem;
+    font-weight: 500;
+    margin-bottom: 10px;
+    color: var(--white);
+}
+
+.temperature{
+    font-size: 4rem;
+    font-weight: 900;
+    color: var(--white);
+    text-align: center;
+}
+ 
+
+.more-info-label{
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: var(--white);
+    margin-bottom: 10px;
+    margin-top: 0.1em;
+    text-align: center;}
+.more-Info-Container{
+    flex: 1;
+    background-color: var(--shadow-light);
+    border-radius: 20px;
+    margin: 0.1em;
+
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.info-block{
+    width: 50%;
+    display: flex;
+    flex-direction: row;
+}
+
+.info-block-label{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.info-block-label img{
+    width: 3em;
+    height: 3em;
+}
+
+.info-block-label span{
+    font-size: 0.8rem;
+    font-weight: 500;
+    color: var(--white);
+}
+
+.info-block-value{
+    width: 50%;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    color: var(--white);
+}
+
+.lowerData{
+    position: relative;
+    width: 100%;
+    height: 50%;
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
